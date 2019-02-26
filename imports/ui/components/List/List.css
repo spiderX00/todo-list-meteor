@@ -1,0 +1,26 @@
+/* Todolist style */
+
+.list {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.list form .field {
+    min-width: 320px;
+    flex: 1;
+}
+
+.list input:focus, .list textarea:focus, .list button:focus {
+    outline: none;
+}
+
+.items .react-datepicker-wrapper, .items .react-datepicker-wrapper .react-datepicker__input-container {
+    width: 100%;
+    border-radius: 0;
+}
+
+.items .react-datepicker-wrapper .react-datepicker__input-container input {
+    text-align: center;
+    border-radius: 0;
+}
